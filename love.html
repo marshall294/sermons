@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Your Enemies</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4682b4;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        main {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding-bottom: 4rem; /* Added padding to prevent overlap */
+        }
+        h2, h3 {
+            color: #4169e1;
+        }
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: #e6f7ff;
+            border-left: 5px solid #4682b4;
+            font-style: italic;
+        }
+        .lesson {
+            margin-top: 2rem;
+        }
+        .lesson div {
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4682b4;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #4682b4;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #commentBox {
+            width: 100%;
+            height: 200px;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            resize: none;
+        }
+        button {
+            padding: 0.6rem 1.2rem;
+            background-color: #4682b4;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #4169e1;
+        }
+        form {
+            margin: 2rem 0;
+            background-color: #e6f7ff;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: calc(100% - 20px);
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form textarea {
+            height: 100px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Love Your Enemies</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <!-- Additional links can be added here -->
+</nav>
+
+<main>
+    <h3>Presenter: Brother Marshall Jacob</h3>
+    <p>The concept of loving your enemies is a profound teaching that challenges us to extend grace and compassion even to those who may not treat us well. This page explores the biblical basis for this teaching and offers practical ways to embody this principle in our lives.</p>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="contact" placeholder="Phone or Email" required>
+        <textarea id="question" placeholder="Your Question" required></textarea>
+        <button type="button" onclick="submitToWhatsApp()">Submit via WhatsApp</button>
+    </form>
+
+    <h2 id="introduction">Introduction</h2>
+    <p>Jesus calls us to love our enemies and pray for those who persecute us. This radical call to love transcends common human responses and reflects the heart of God. Understanding and applying this teaching can transform relationships and foster peace.</p>
+
+    <blockquote>
+        <p>Matthew 5:44 – "But I tell you, love your enemies and pray for those who persecute you."</p>
+    </blockquote>
+
+    <h3>The Challenge of Loving Your Enemies</h3>
+    <p>Loving our enemies is not easy. It requires us to overcome feelings of resentment and anger and to act in ways that reflect God's love. This teaching invites us to rise above personal grievances and to extend the same grace that God extends to us.</p>
+
+    <blockquote>
+        <p>Luke 6:27-28 – "But to you who are listening I say: Love your enemies, do good to those who hate you, bless those who curse you, pray for those who mistreat you."</p>
+    </blockquote>
+
+    <h2 id="lessons">Lessons from Scripture</h2>
+    <div class="lesson">
+        <div>
+            <strong>The Parable of the Good Samaritan</strong>
+            <p>This parable demonstrates the importance of showing kindness and love to those who may be considered our enemies or outsiders. It challenges us to extend compassion regardless of social or ethnic barriers.</p>
+            <blockquote>
+                <p>Luke 10:30-37 – "In reply Jesus said: ‘A man was going down from Jerusalem to Jericho, when he was attacked by robbers. They stripped him of his clothes, beat him and went away, leaving him half dead...’"</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>Forgiveness of Enemies</strong>
+            <p>Jesus' teaching on forgiveness emphasizes that forgiving others, including our enemies, is a key aspect of loving them. This forgiveness reflects God's forgiveness towards us and promotes reconciliation and peace.</p>
+            <blockquote>
+                <p>Mark 11:25 – "And when you stand praying, if you hold anything against anyone, forgive them, so that your Father in heaven may forgive you your sins."</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>The Example of Jesus</strong>
+            <p>Jesus’ crucifixion is the ultimate example of loving one’s enemies. Despite being unjustly condemned and tortured, He prayed for His persecutors, demonstrating an unparalleled love and forgiveness.</p>
+            <blockquote>
+                <p>Luke 23:34 – "Jesus said, ‘Father, forgive them, for they do not know what they are doing.’"</p>
+            </blockquote>
+        </div>
+    </div>
+
+    <h2 id="application">Applying the Teaching</h2>
+    <p>To practice loving your enemies, start by praying for them and seeking to understand their perspective. Act with kindness, even when it's challenging, and aim to respond with love rather than retaliation. This approach can help break down barriers and foster positive change.</p>
+
+    <h3>Leave a Comment</h3>
+    <textarea id="commentBox" placeholder="Share your thoughts..."></textarea>
+    <br>
+    <button onclick="saveComment()">Save Comment</button>
+</main>
+
+<footer>
+    <p>© 2024 Love Your Enemies Ministry</p>
+</footer>
+
+<script>
+    function saveComment() {
+        const comment = document.getElementById('commentBox').value;
+        if (comment) {
+            localStorage.setItem('savedComment', comment);
+            alert('Comment saved locally!');
+        } else {
+            alert('Please enter a comment before saving.');
+        }
+    }
+
+    window.onload = function() {
+        const savedComment = localStorage.getItem('savedComment');
+        if (savedComment) {
+            document.getElementById('commentBox').value = savedComment;
+        }
+    }
+
+    function submitToWhatsApp() {
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const question = document.getElementById('question').value;
+        
+        if (name && contact && question) {
+            const message = `Name: ${name}\nContact: ${contact}\nQuestion: ${question}`;
+            const whatsappURL = `https://api.whatsapp.com/send?phone=1234567890&text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, '_blank');
+        } else {
+            alert('Please fill out all fields before submitting.');
+        }
+    }
+</script>
+
+</body>
+</html>

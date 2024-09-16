@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faith Over Fear</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f0f8f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff7f50;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        main {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding-bottom: 4rem; /* Added padding to prevent overlap */
+        }
+        h2, h3 {
+            color: #2e8b57;
+        }
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: #eaf8f1;
+            border-left: 5px solid #ff7f50;
+            font-style: italic;
+        }
+        .lesson {
+            margin-top: 2rem;
+        }
+        .lesson div {
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ff7f50;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #ff7f50;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #commentBox {
+            width: 100%;
+            height: 200px;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            resize: none;
+        }
+        button {
+            padding: 0.6rem 1.2rem;
+            background-color: #ff7f50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #ff6347;
+        }
+        form {
+            margin: 2rem 0;
+            background-color: #eaf8f1;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: calc(100% - 20px);
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form textarea {
+            height: 100px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Faith Over Fear</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> 
+    <!-- Additional links can be added here -->
+</nav>
+
+<main>
+    <h3>Presenter: Brother Marshall Jacob</h3>
+    <p>In times of uncertainty and challenge, our faith can be a powerful tool to overcome fear. Below, you'll find resources and insights to strengthen your faith and rise above your fears.</p>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="contact" placeholder="Phone or Email" required>
+        <textarea id="question" placeholder="Your Question" required></textarea>
+        <button type="button" onclick="submitToWhatsApp()">Submit via WhatsApp</button>
+    </form>
+
+    <h2 id="introduction">Introduction</h2>
+    <p>Fear is a natural response, but it does not have to dominate our lives. Faith in God provides a strong foundation for overcoming fear and finding peace. Embracing faith allows us to confront our fears with courage and assurance in God’s promises.</p>
+
+    <blockquote>
+        <p>2 Timothy 1:7 – "For God has not given us a spirit of fear, but of power and of love and of a sound mind."</p>
+    </blockquote>
+
+    <h3>Understanding Faith</h3>
+    <p>Faith is more than belief; it is trust in God’s plan and His ability to guide us through difficulties. It helps us remain steadfast even when faced with overwhelming situations. Faith reassures us that God is with us, and we are not alone in our struggles.</p>
+
+    <blockquote>
+        <p>Hebrews 11:1 – "Now faith is confidence in what we hope for and assurance about what we do not see."</p>
+    </blockquote>
+
+    <h2 id="lessons">Lessons from Scripture</h2>
+    <div class="lesson">
+        <div>
+            <strong>David and Goliath</strong>
+            <p>David’s faith in God gave him the courage to face the giant Goliath. His story demonstrates how faith can help us confront and overcome seemingly insurmountable obstacles.</p>
+            <blockquote>
+                <p>1 Samuel 17:45 – "David said to the Philistine, 'You come against me with sword and spear, but I come against you in the name of the Lord Almighty...'</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>The Disciples' Storm</strong>
+            <p>When the disciples faced a storm at sea, their faith was tested. Jesus calmed the storm, showing that faith in Him can bring peace even in the midst of life’s most turbulent times.</p>
+            <blockquote>
+                <p>Mark 4:39 – "He got up, rebuked the wind and said to the waves, 'Quiet! Be still!' Then the wind died down and it was completely calm."</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>Jesus’ Assurance</strong>
+            <p>Jesus reassured His followers not to fear but to trust in Him for comfort and strength. His presence in our lives provides the confidence needed to overcome any fear.</p>
+            <blockquote>
+                <p>John 14:27 – "Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid."</p>
+            </blockquote>
+        </div>
+    </div>
+
+    <h2 id="application">Applying Faith to Overcome Fear</h2>
+    <p>To overcome fear through faith, start by praying and asking God for strength. Read the Scriptures and meditate on promises that counteract fear. Surround yourself with supportive people who encourage your faith journey. Take small steps in faith, trusting God in every situation.</p>
+
+    <h3>Leave a Comment</h3>
+    <textarea id="commentBox" placeholder="Share your thoughts..."></textarea>
+    <br>
+    <button onclick="saveComment()">Save Comment</button>
+</main>
+
+<footer>
+    <p>© 2024 Faith Over Fear Ministry</p>
+</footer>
+
+<script>
+    function saveComment() {
+        const comment = document.getElementById('commentBox').value;
+        if (comment) {
+            localStorage.setItem('savedComment', comment);
+            alert('Comment saved locally!');
+        } else {
+            alert('Please enter a comment before saving.');
+        }
+    }
+
+    window.onload = function() {
+        const savedComment = localStorage.getItem('savedComment');
+        if (savedComment) {
+            document.getElementById('commentBox').value = savedComment;
+        }
+    }
+
+    function submitToWhatsApp() {
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const question = document.getElementById('question').value;
+        
+        if (name && contact && question) {
+            const message = `Name: ${name}\nContact: ${contact}\nQuestion: ${question}`;
+            const whatsappURL = `https://api.whatsapp.com/send?phone=1234567890&text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, '_blank');
+        } else {
+            alert('Please fill out all fields before submitting.');
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabbath Was Not Practiced by the Apostles</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a90e2;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        main {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding-bottom: 6rem; /* Increased padding to prevent overlap */
+        }
+        h2, h3 {
+            color: #4a90e2;
+        }
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: #f0f8ff;
+            border-left: 5px solid #4a90e2;
+            font-style: italic;
+        }
+        .section {
+            margin-top: 2rem;
+        }
+        .section div {
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4a90e2;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #4a90e2;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #commentBox {
+            width: 80%;
+            height: 200px;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            resize: none;
+        }
+        button {
+            padding: 0.5rem 1rem;
+            background-color: #4a90e2;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #357ab7;
+        }
+        form {
+            margin: 2rem 0;
+            background-color: #e8f4f8;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: calc(100% - 20px);
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form textarea {
+            height: 100px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sabbath Was Not Practiced by the Apostles</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <!-- Add more navigation links as needed -->
+</nav>
+
+<main>
+    <h3>Presenter: Brother Marshall Jacob</h3>
+    <p>This page explores the historical and theological context of the Sabbath and its practice among the early apostles. It aims to provide insight into why the early Church did not adhere to the Sabbath in the same way as described in the Old Testament.</p>
+
+    <h2 id="introduction">Introduction</h2>
+    <p>The Sabbath, a day of rest observed on the seventh day of the week, was a significant part of Jewish law and tradition. However, the practice of observing the Sabbath in the early Christian Church was not uniformly observed by the apostles. This page delves into the reasons and implications of this divergence from Old Testament practices.</p>
+
+    <blockquote>
+        <p>Matthew 5:17 – "Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them."</p>
+    </blockquote>
+
+    <h3>The Sabbath in Jewish Tradition</h3>
+    <p>In the Jewish tradition, the Sabbath was a day of rest established by God in the Old Testament, as described in the Ten Commandments (Exodus 20:8-11). It was observed from Friday evening to Saturday evening, and it involved refraining from work and focusing on worship and rest.</p>
+
+    <h2 id="early-church-practice">Early Church Practices</h2>
+    <p>Despite the Sabbath's significance in Jewish law, the early Christian Church, consisting largely of Gentile believers, did not practice the Sabbath in the same way. Several factors contributed to this shift:</p>
+    <ul>
+        <li><strong>Resurrection on the First Day:</strong> Early Christians began to gather on the first day of the week, Sunday, to commemorate the resurrection of Jesus Christ. This day came to be known as the Lord's Day (Revelation 1:10).</li>
+        <li><strong>A New Covenant:</strong> The New Testament teaches that Christians are not bound by the old covenant laws, including the Sabbath command, as they are under the new covenant established by Jesus (Hebrews 8:13).</li>
+        <li><strong>A Shift in Focus:</strong> The early Church emphasized the spiritual rest and freedom found in Christ rather than adhering to the literal observance of the Sabbath (Colossians 2:16-17).</li>
+    </ul>
+
+    <blockquote>
+        <p>Colossians 2:16-17 – "Therefore do not let anyone judge you by what you eat or drink, or with regard to a religious festival, a New Moon celebration, or a Sabbath day. These are a shadow of the things that were to come; the reality, however, is found in Christ."</p>
+    </blockquote>
+
+    <h2 id="conclusion">Conclusion</h2>
+    <p>While the Sabbath was an important aspect of Jewish law, the early apostles and the early Church did not adhere to it in the same manner. The focus shifted to celebrating the resurrection of Christ and living out the principles of the new covenant. This shift highlights the transformative nature of Jesus' teachings and the early Church's response to them.</p>
+
+    <h3>Contact Form</h3>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="contact" placeholder="Phone or Email" required>
+        <textarea id="question" placeholder="Your Question" required></textarea>
+        <button type="button" onclick="submitToWhatsApp()">Submit</button>
+    </form>
+
+    <h3>Leave a Comment</h3>
+    <textarea id="commentBox" placeholder="Write your comment here..."></textarea>
+    <br>
+    <button onclick="saveComment()">Save Comment</button>
+</main>
+
+<footer>
+    <p>© 2024 Truth in Christ Ministry</p>
+</footer>
+
+<script>
+    function saveComment() {
+        const comment = document.getElementById('commentBox').value;
+        if (comment) {
+            localStorage.setItem('savedComment', comment);
+            alert('Comment saved locally!');
+        } else {
+            alert('Please enter a comment before saving.');
+        }
+    }
+
+    window.onload = function() {
+        const savedComment = localStorage.getItem('savedComment');
+        if (savedComment) {
+            document.getElementById('commentBox').value = savedComment;
+        }
+    }
+
+    function submitToWhatsApp() {
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const question = document.getElementById('question').value;
+
+        if (name && contact && question) {
+            const message = `Name: ${name}\nContact: ${contact}\nQuestion: ${question}`;
+            const whatsappUrl = `https://wa.me/2348102341648?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        } else {
+            alert('Please fill in all fields.');
+        }
+    }
+</script>
+
+</body>
+</html>

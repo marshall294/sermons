@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power of Prayer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4682b4;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        main {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding-bottom: 4rem; /* Added padding to prevent overlap */
+        }
+        h2, h3 {
+            color: #4169e1;
+        }
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: #e0f7fa;
+            border-left: 5px solid #4682b4;
+            font-style: italic;
+        }
+        .lesson {
+            margin-top: 2rem;
+        }
+        .lesson div {
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4682b4;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #4682b4;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #commentBox {
+            width: 100%;
+            height: 200px;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            resize: none;
+        }
+        button {
+            padding: 0.6rem 1.2rem;
+            background-color: #4682b4;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #4169e1;
+        }
+        form {
+            margin: 2rem 0;
+            background-color: #e0f7fa;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: calc(100% - 20px);
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form textarea {
+            height: 100px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Power of Prayer</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> 
+    <!-- Additional links can be added here -->
+</nav>
+
+<main>
+    <h3>Presenter: Brother Marshall Jacob</h3>
+    <p>Prayer is a powerful tool for connecting with God, seeking His guidance, and finding strength in times of need. This page explores the transformative power of prayer, its impact on our lives, and practical ways to incorporate prayer into our daily routines.</p>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="contact" placeholder="Phone or Email" required>
+        <textarea id="question" placeholder="Your Question" required></textarea>
+        <button type="button" onclick="submitToWhatsApp()">Submit via WhatsApp</button>
+    </form>
+
+    <h2 id="introduction">Introduction</h2>
+    <p>Prayer is a direct line to God, offering a means to communicate our deepest concerns, express gratitude, and seek divine intervention. It serves as a source of comfort and guidance, helping us navigate life's challenges with faith and hope.</p>
+
+    <blockquote>
+        <p>1 Thessalonians 5:16-18 – "Rejoice always, pray continually, give thanks in all circumstances; for this is God’s will for you in Christ Jesus."</p>
+    </blockquote>
+
+    <h3>The Power of Prayer</h3>
+    <p>Through prayer, we invite God's presence into our lives and allow Him to work within us. Prayer can bring peace in chaos, clarity in confusion, and strength in weakness. It is a way to align our will with God's and to trust in His perfect plan.</p>
+
+    <blockquote>
+        <p>James 5:16 – "The prayer of a righteous person is powerful and effective."</p>
+    </blockquote>
+
+    <h2 id="lessons">Lessons from Scripture</h2>
+    <div class="lesson">
+        <div>
+            <strong>The Prayer of Hannah</strong>
+            <p>Hannah's heartfelt prayer for a child demonstrates the power of earnest prayer and God's responsiveness to our deepest desires. Her story is a testament to the transformative power of prayer in achieving divine purposes.</p>
+            <blockquote>
+                <p>1 Samuel 1:27 – "'I prayed for this child, and the Lord has granted me what I asked of him.'</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>The Lord's Prayer</strong>
+            <p>Jesus taught His disciples the Lord's Prayer as a model for how to approach God. It emphasizes the importance of praising God, seeking His will, and asking for daily needs and forgiveness.</p>
+            <blockquote>
+                <p>Matthew 6:9-13 – "'This, then, is how you should pray: “‘Our Father in heaven, hallowed be your name, your kingdom come, your will be done, on earth as it is in heaven. Give us today our daily bread. And forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from the evil one.'</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>Jesus in the Garden of Gethsemane</strong>
+            <p>Jesus' prayers in the Garden of Gethsemane reveal His deep anguish and submission to God's will. His prayers demonstrate the power of seeking God’s strength in times of immense pressure and facing difficult decisions.</p>
+            <blockquote>
+                <p>Matthew 26:39 – "Going a little farther, he fell with his face to the ground and prayed, 'My Father, if it is possible, may this cup be taken from me. Yet not as I will, but as you will.'</p>
+            </blockquote>
+        </div>
+    </div>
+
+    <h2 id="application">Applying Prayer in Daily Life</h2>
+    <p>To harness the power of prayer, establish a daily routine of prayer and reflection. Create a quiet space where you can connect with God without distractions. Use prayer as a way to seek guidance, express gratitude, and find comfort. Remember that prayer is not just about asking for things but about developing a relationship with God and aligning with His will.</p>
+
+    <h3>Leave a Comment</h3>
+    <textarea id="commentBox" placeholder="Share your thoughts..."></textarea>
+    <br>
+    <button onclick="saveComment()">Save Comment</button>
+</main>
+
+<footer>
+    <p>© 2024 Power of Prayer Ministry</p>
+</footer>
+
+<script>
+    function saveComment() {
+        const comment = document.getElementById('commentBox').value;
+        if (comment) {
+            localStorage.setItem('savedComment', comment);
+            alert('Comment saved locally!');
+        } else {
+            alert('Please enter a comment before saving.');
+        }
+    }
+
+    window.onload = function() {
+        const savedComment = localStorage.getItem('savedComment');
+        if (savedComment) {
+            document.getElementById('commentBox').value = savedComment;
+        }
+    }
+
+    function submitToWhatsApp() {
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const question = document.getElementById('question').value;
+        
+        if (name && contact && question) {
+            const message = `Name: ${name}\nContact: ${contact}\nQuestion: ${question}`;
+            const whatsappURL = `https://api.whatsapp.com/send?phone=1234567890&text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, '_blank');
+        } else {
+            alert('Please fill out all fields before submitting.');
+        }
+    }
+</script>
+
+</body>
+</html>

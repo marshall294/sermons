@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabbath vs. First Day of the Week</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a90e2;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        main {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding-bottom: 6rem; /* Increased padding to prevent overlap */
+        }
+        h2, h3 {
+            color: #4a90e2;
+        }
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: #f0f8ff;
+            border-left: 5px solid #4a90e2;
+            font-style: italic;
+        }
+        .section {
+            margin-top: 2rem;
+        }
+        .section div {
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4a90e2;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #4a90e2;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #commentBox {
+            width: 80%;
+            height: 200px;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            resize: none;
+        }
+        button {
+            padding: 0.5rem 1rem;
+            background-color: #4a90e2;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #357ab7;
+        }
+        form {
+            margin: 2rem 0;
+            background-color: #e8f4f8;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: calc(100% - 20px);
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form textarea {
+            height: 100px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sabbath vs. First Day of the Week</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <!-- Add more navigation links as needed -->
+</nav>
+
+<main>
+    <h3>Presenter: Brother Marshall Jacob</h3>
+    <p>This page provides a comparative analysis of the Sabbath and the First Day of the Week, exploring their origins, significance, and practices within the Christian faith. Understanding these differences can provide insight into their theological implications and their roles in contemporary worship.</p>
+
+    <h2 id="sabbath">The Sabbath</h2>
+    <p>The Sabbath is a day of rest observed on the seventh day of the week, from Friday evening to Saturday evening. It is rooted in the Old Testament, where it is established as a day of rest and worship as commanded by God:</p>
+    <blockquote>
+        <p>Exodus 20:8-10 – "Remember the Sabbath day by keeping it holy. Six days you shall labor and do all your work, but the seventh day is a sabbath to the Lord your God."</p>
+    </blockquote>
+    <p>In Jewish tradition, the Sabbath was a day for cessation from work and was considered a sign of the covenant between God and Israel (Exodus 31:16-17).</p>
+
+    <h2 id="first-day-of-week">The First Day of the Week</h2>
+    <p>The First Day of the Week, known as Sunday, is significant in Christianity for commemorating the resurrection of Jesus Christ. Early Christians began gathering on this day to celebrate the resurrection, marking a shift from the traditional Sabbath observance:</p>
+    <blockquote>
+        <p>Acts 20:7 – "On the first day of the week we came together to break bread. Paul spoke to the people, and because he intended to leave the next day, kept on talking until midnight."</p>
+    </blockquote>
+    <p>This shift from Saturday to Sunday as a day of worship symbolizes the new creation and the new covenant established through Christ's resurrection (Revelation 1:10).</p>
+
+    <h2 id="comparative-analysis">Comparative Analysis</h2>
+    <p>While the Sabbath was observed as a day of rest and worship under the old covenant, the First Day of the Week represents the new covenant brought about by Jesus Christ. The early Church’s shift from observing the Sabbath to celebrating the resurrection on Sunday reflects the theological transition from the old covenant to the new:</p>
+    <ul>
+        <li><strong>Old Covenant:</strong> The Sabbath was a commandment under the Mosaic Law, emphasizing rest and cessation from work (Deuteronomy 5:12-15).</li>
+        <li><strong>New Covenant:</strong> The First Day of the Week symbolizes the fulfillment of the Law through Christ and the beginning of a new era in Christian worship (1 Corinthians 16:2).</li>
+    </ul>
+    <p>Understanding this shift helps to appreciate the early Church's adaptation and the theological reasons behind moving the primary day of worship from Saturday to Sunday.</p>
+
+    <h2 id="conclusion">Conclusion</h2>
+    <p>The Sabbath and the First Day of the Week represent different aspects of religious observance in the Judeo-Christian tradition. The Sabbath reflects the Old Testament laws and covenant, while the First Day of the Week embodies the new covenant and the celebration of Christ’s resurrection. This transition highlights the dynamic nature of faith and worship as guided by biblical principles.</p>
+
+    <h3>Contact Form</h3>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="contact" placeholder="Phone or Email" required>
+        <textarea id="question" placeholder="Your Question" required></textarea>
+        <button type="button" onclick="submitToWhatsApp()">Submit</button>
+    </form>
+
+    <h3>Leave a Comment</h3>
+    <textarea id="commentBox" placeholder="Write your comment here..."></textarea>
+    <br>
+    <button onclick="saveComment()">Save Comment</button>
+</main>
+
+<footer>
+    <p>© 2024 Truth in Christ Ministry</p>
+</footer>
+
+<script>
+    function saveComment() {
+        const comment = document.getElementById('commentBox').value;
+        if (comment) {
+            localStorage.setItem('savedComment', comment);
+            alert('Comment saved locally!');
+        } else {
+            alert('Please enter a comment before saving.');
+        }
+    }
+
+    window.onload = function() {
+        const savedComment = localStorage.getItem('savedComment');
+        if (savedComment) {
+            document.getElementById('commentBox').value = savedComment;
+        }
+    }
+
+    function submitToWhatsApp() {
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const question = document.getElementById('question').value;
+
+        if (name && contact && question) {
+            const message = `Name: ${name}\nContact: ${contact}\nQuestion: ${question}`;
+            const whatsappUrl = `https://wa.me/2348102341648?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        } else {
+            alert('Please fill in all fields.');
+        }
+    }
+</script>
+
+</body>
+</html>

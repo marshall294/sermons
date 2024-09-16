@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Forgiveness</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8b4513;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        main {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding-bottom: 4rem; /* Added padding to prevent overlap */
+        }
+        h2, h3 {
+            color: #6a5acd;
+        }
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: #e8f0f2;
+            border-left: 5px solid #8b4513;
+            font-style: italic;
+        }
+        .lesson {
+            margin-top: 2rem;
+        }
+        .lesson div {
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #8b4513;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #8b4513;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #commentBox {
+            width: 100%;
+            height: 200px;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            resize: none;
+        }
+        button {
+            padding: 0.6rem 1.2rem;
+            background-color: #8b4513;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #a0522d;
+        }
+        form {
+            margin: 2rem 0;
+            background-color: #e8f0f2;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: calc(100% - 20px);
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form textarea {
+            height: 100px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Understanding Forgiveness</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> 
+    <!-- Additional links can be added here -->
+</nav>
+
+<main>
+    <h3>Presenter: Brother Marshall Jacob</h3>
+    <p>Forgiveness is a central theme in Christian teachings, reflecting God’s grace and mercy. This page explores the essence of forgiveness, its importance, and how we can practice it in our lives.</p>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="contact" placeholder="Phone or Email" required>
+        <textarea id="question" placeholder="Your Question" required></textarea>
+        <button type="button" onclick="submitToWhatsApp()">Submit via WhatsApp</button>
+    </form>
+
+    <h2 id="introduction">Introduction</h2>
+    <p>Forgiveness is a gift that liberates both the giver and the receiver. It is an act of love and a reflection of God's mercy. By forgiving others, we align ourselves with God's will and open the door to healing and reconciliation.</p>
+
+    <blockquote>
+        <p>Matthew 6:14 – "For if you forgive other people when they sin against you, your heavenly Father will also forgive you."</p>
+    </blockquote>
+
+    <h3>Understanding Forgiveness</h3>
+    <p>Forgiveness involves letting go of resentment and the desire for retribution. It is not condoning wrongdoing but choosing to release the hold that the offense has over us. Forgiveness is an expression of compassion and a step towards emotional freedom.</p>
+
+    <blockquote>
+        <p>Colossians 3:13 – "Bear with each other and forgive one another if any of you has a grievance against someone. Forgive as the Lord forgave you."</p>
+    </blockquote>
+
+    <h2 id="lessons">Lessons from Scripture</h2>
+    <div class="lesson">
+        <div>
+            <strong>The Parable of the Unforgiving Servant</strong>
+            <p>This parable illustrates the importance of forgiving others as we have been forgiven by God. It underscores the necessity of extending mercy and forgiveness to those who wrong us.</p>
+            <blockquote>
+                <p>Matthew 18:32-33 – "'Then the master called the servant in. 'You wicked servant,' he said, 'I canceled all that debt of yours because you begged me to. Shouldn't you have had mercy on your fellow servant just as I had on you?'</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>The Prodigal Son</strong>
+            <p>The story of the Prodigal Son exemplifies the boundless forgiveness of a father who welcomes back his wayward son. It reflects God's readiness to forgive and accept us no matter how far we have strayed.</p>
+            <blockquote>
+                <p>Luke 15:21 – "'The son said to him, 'Father, I have sinned against heaven and against you. I am no longer worthy to be called your son.'</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>Jesus on the Cross</strong>
+            <p>Even in His suffering, Jesus demonstrated forgiveness, asking God to forgive those who crucified Him. This act of supreme forgiveness teaches us to forgive even in the most challenging circumstances.</p>
+            <blockquote>
+                <p>Luke 23:34 – "Jesus said, 'Father, forgive them, for they do not know what they are doing.'</p>
+            </blockquote>
+        </div>
+    </div>
+
+    <h2 id="application">Applying Forgiveness in Daily Life</h2>
+    <p>To practice forgiveness, start by reflecting on the times you have been forgiven. Let go of grudges and seek reconciliation with those who have wronged you. Engage in prayer and ask for strength to forgive. Remember, forgiveness is a journey and a choice to seek peace and healing.</p>
+
+    <h3>Leave a Comment</h3>
+    <textarea id="commentBox" placeholder="Share your thoughts..."></textarea>
+    <br>
+    <button onclick="saveComment()">Save Comment</button>
+</main>
+
+<footer>
+    <p>© 2024 Understanding Forgiveness Ministry</p>
+</footer>
+
+<script>
+    function saveComment() {
+        const comment = document.getElementById('commentBox').value;
+        if (comment) {
+            localStorage.setItem('savedComment', comment);
+            alert('Comment saved locally!');
+        } else {
+            alert('Please enter a comment before saving.');
+        }
+    }
+
+    window.onload = function() {
+        const savedComment = localStorage.getItem('savedComment');
+        if (savedComment) {
+            document.getElementById('commentBox').value = savedComment;
+        }
+    }
+
+    function submitToWhatsApp() {
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const question = document.getElementById('question').value;
+        
+        if (name && contact && question) {
+            const message = `Name: ${name}\nContact: ${contact}\nQuestion: ${question}`;
+            const whatsappURL = `https://api.whatsapp.com/send?phone=1234567890&text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, '_blank');
+        } else {
+            alert('Please fill out all fields before submitting.');
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace and Truth</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4682b4;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        main {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding-bottom: 4rem; /* Added padding to prevent overlap */
+        }
+        h2, h3 {
+            color: #4169e1;
+        }
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: #e0ffff;
+            border-left: 5px solid #4682b4;
+            font-style: italic;
+        }
+        .lesson {
+            margin-top: 2rem;
+        }
+        .lesson div {
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4682b4;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #4682b4;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #commentBox {
+            width: 100%;
+            height: 200px;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            resize: none;
+        }
+        button {
+            padding: 0.6rem 1.2rem;
+            background-color: #4682b4;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #4169e1;
+        }
+        form {
+            margin: 2rem 0;
+            background-color: #e0ffff;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: calc(100% - 20px);
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form textarea {
+            height: 100px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Grace and Truth</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <!-- Additional links can be added here -->
+</nav>
+
+<main>
+    <h3>Presenter: Brother Marshall Jacob</h3>
+    <p>The balance of grace and truth is foundational in the Christian faith. This page explores how grace and truth work together to shape our understanding of God and our interactions with others, drawing from Scripture and practical application.</p>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="contact" placeholder="Phone or Email" required>
+        <textarea id="question" placeholder="Your Question" required></textarea>
+        <button type="button" onclick="submitToWhatsApp()">Submit via WhatsApp</button>
+    </form>
+
+    <h2 id="introduction">Introduction</h2>
+    <p>Grace and truth are not opposing forces but complementary aspects of God's nature and His dealings with humanity. Understanding this balance helps us live in harmony with God's will and foster meaningful relationships.</p>
+
+    <blockquote>
+        <p>John 1:14 – "The Word became flesh and made his dwelling among us. We have seen his glory, the glory of the one and only Son, who came from the Father, full of grace and truth."</p>
+    </blockquote>
+
+    <h3>The Balance of Grace and Truth</h3>
+    <p>Grace is God's unmerited favor, while truth is His absolute standard. Balancing these aspects means recognizing our need for grace while upholding the truth of God's Word. This balance affects how we interact with others and how we perceive ourselves in light of God's standards.</p>
+
+    <blockquote>
+        <p>Psalm 85:10 – "Love and faithfulness meet together; righteousness and peace kiss each other."</p>
+    </blockquote>
+
+    <h2 id="lessons">Lessons from Scripture</h2>
+    <div class="lesson">
+        <div>
+            <strong>Grace as a Gift</strong>
+            <p>Grace is not earned but given freely by God. This understanding frees us from the burden of trying to earn God's favor and allows us to extend grace to others.</p>
+            <blockquote>
+                <p>Ephesians 2:8-9 – "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>The Role of Truth</strong>
+            <p>Truth provides the foundation for understanding God's will and living a righteous life. It guides us and helps us discern what is right and wrong.</p>
+            <blockquote>
+                <p>John 17:17 – "Sanctify them by the truth; your word is truth."</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>Grace and Truth in Relationships</strong>
+            <p>Balancing grace and truth in relationships involves showing compassion while also standing firm on principles. This balance promotes growth and understanding.</p>
+            <blockquote>
+                <p>Proverbs 3:3-4 – "Let love and faithfulness never leave you; bind them around your neck, write them on the tablet of your heart. Then you will win favor and a good name in the sight of God and man."</p>
+            </blockquote>
+        </div>
+    </div>
+
+    <h2 id="application">Applying Grace and Truth</h2>
+    <p>To apply grace and truth in your life, strive to be both compassionate and honest. Embrace God's grace daily and uphold His truth in all your interactions. This balance will help you grow spiritually and build stronger, more genuine relationships.</p>
+
+    <h3>Leave a Comment</h3>
+    <textarea id="commentBox" placeholder="Share your thoughts..."></textarea>
+    <br>
+    <button onclick="saveComment()">Save Comment</button>
+</main>
+
+<footer>
+    <p>© 2024 Grace and Truth Ministry</p>
+</footer>
+
+<script>
+    function saveComment() {
+        const comment = document.getElementById('commentBox').value;
+        if (comment) {
+            localStorage.setItem('savedComment', comment);
+            alert('Comment saved locally!');
+        } else {
+            alert('Please enter a comment before saving.');
+        }
+    }
+
+    window.onload = function() {
+        const savedComment = localStorage.getItem('savedComment');
+        if (savedComment) {
+            document.getElementById('commentBox').value = savedComment;
+        }
+    }
+
+    function submitToWhatsApp() {
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const question = document.getElementById('question').value;
+        
+        if (name && contact && question) {
+            const message = `Name: ${name}\nContact: ${contact}\nQuestion: ${question}`;
+            const whatsappURL = `https://api.whatsapp.com/send?phone=1234567890&text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, '_blank');
+        } else {
+            alert('Please fill out all fields before submitting.');
+        }
+    }
+</script>
+
+</body>
+</html>

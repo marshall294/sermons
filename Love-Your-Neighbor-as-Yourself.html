@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Your Neighbor as Yourself</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a90e2;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2, h3 {
+            color: #333;
+        }
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: #e8f4f8;
+            border-left: 5px solid #4a90e2;
+            font-style: italic;
+        }
+        .lesson {
+            margin-top: 2rem;
+        }
+        .lesson div {
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4a90e2;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #4a90e2;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #commentBox {
+            width: 100%;
+            height: 200px;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            resize: none;
+        }
+        button {
+            padding: 0.5rem 1.2rem;
+            background-color: #4a90e2;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #357ab7;
+        }
+        form {
+            margin: 2rem 0;
+            background-color: #e8f4f8;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: calc(100% - 20px);
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form textarea {
+            height: 100px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Love Your Neighbor as Yourself</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> 
+    <!-- Additional links can be added here -->
+</nav>
+
+<main>
+    <h3>Presenter: Bro. Marshall</h3>
+    <p>For further inquiries or study, feel free to contact us below:</p>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="contact" placeholder="Phone or Email" required>
+        <textarea id="question" placeholder="Your Question" required></textarea>
+        <button type="button" onclick="submitToWhatsApp()">Submit via WhatsApp</button>
+    </form>
+
+    <h2 id="introduction">Introduction</h2>
+    <p>The commandment to "love your neighbor as yourself" calls us to extend love and kindness beyond our immediate circles.</p>
+    
+    <blockquote>
+        <p>Matthew 22:37-39: “Jesus replied: ‘Love the Lord your God with all your heart and with all your soul and with all your mind.’ This is the first and greatest commandment. And the second is like it: ‘Love your neighbor as yourself.’”</p>
+    </blockquote>
+
+    <h3>Dictionary vs. Parable Definition</h3>
+    <p>While the dictionary defines a neighbor as someone living nearby, the parable of the Good Samaritan expands this to include anyone in need, regardless of proximity.</p>
+
+    <h2 id="lessons">Lessons from the Good Samaritan</h2>
+    <div class="lesson">
+        <div>
+            <strong>Compassion Overcomes Prejudice</strong>
+            <p>The Samaritan helps a stranger, teaching us that love transcends boundaries.</p>
+            <blockquote>
+                <p>Luke 10:33 – "But a Samaritan, as he traveled, came where the man was; and when he saw him, he took pity on him."</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>Action Over Intention</strong>
+            <p>Love is demonstrated through action, as the Samaritan showed by caring for the injured man.</p>
+            <blockquote>
+                <p>Luke 10:34 – "He went to him and bandaged his wounds, pouring on oil and wine."</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>Sacrifice and Service</strong>
+            <p>The Samaritan made personal sacrifices for the well-being of the injured man, embodying true love.</p>
+            <blockquote>
+                <p>Luke 10:35 – "The next day he took out two denarii and gave them to the innkeeper."</p>
+            </blockquote>
+        </div>
+    </div>
+
+    <h2 id="characters">Characters in the Parable</h2>
+    <div class="lesson">
+        <div>
+            <strong>The Traveler</strong>
+            <p>The Jewish man who was attacked and left in need of help.</p>
+            <blockquote>
+                <p>Luke 10:30 – "A man was going down from Jerusalem to Jericho when he was attacked by robbers."</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>The Priest</strong>
+            <p>A religious leader who passed by the injured man, choosing ritual purity over compassion.</p>
+            <blockquote>
+                <p>Luke 10:31 – "A priest happened to be going down the same road, and when he saw the man, he passed by on the other side."</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>The Levite</strong>
+            <p>A religious assistant who also passed by the injured man without offering help.</p>
+            <blockquote>
+                <p>Luke 10:32 – "So too, a Levite, when he came to the place and saw him, passed by on the other side."</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>The Samaritan</strong>
+            <p>Despite historical and cultural divisions, the Samaritan showed mercy to the injured man.</p>
+            <blockquote>
+                <p>Luke 10:33 – "But a Samaritan, as he traveled, came where the man was, and when he saw him, he took pity on him."</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>The Innkeeper</strong>
+            <p>He provided care for the man on behalf of the Samaritan, demonstrating the role of community support.</p>
+            <blockquote>
+                <p>Luke 10:35 – "The next day he took out two denarii and gave them to the innkeeper."</p>
+            </blockquote>
+        </div>
+    </div>
+
+    <h2 id="application">Application</h2>
+    <p>Identify those in need, practice active love, and embrace diversity. By doing so, we fulfill the law of Christ and transform our communities.</p>
+
+    <h3>Leave a Comment</h3>
+    <textarea id="commentBox" placeholder="Write your comment here..."></textarea>
+    <br>
+    <button onclick="saveComment()">Save Comment</button>
+</main>
+
+<footer>
+    <p>© 2024 Love Your Neighbor Ministry</p>
+</footer>
+
+<script>
+    function saveComment() {
+        const comment = document.getElementById('commentBox').value;
+        if (comment) {
+            localStorage.setItem('savedComment', comment);
+            alert('Comment saved locally!');
+        } else {
+            alert('Please enter a comment before saving.');
+        }
+    }
+
+    window.onload = function() {
+        const savedComment = localStorage.getItem('savedComment');
+        if (savedComment) {
+            document.getElementById('commentBox').value = savedComment;
+        }
+    }
+
+    function submitToWhatsApp() {
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const question = document.getElementById('question').value;
+        
+        if (name && contact && question) {
+            const message = `Name: ${name}\nContact: ${contact}\nQuestion: ${question}`;
+            const whatsappURL = `https://api.whatsapp.com/send?phone=1234567890&text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, '_blank');
+        } else {
+            alert('Please fill out all fields before submitting.');
+        }
+    }
+</script>
+
+</body>
+</html>

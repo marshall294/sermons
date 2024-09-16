@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trusting God in Uncertain Times</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f3f3f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6a7d8a;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        main {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2, h3 {
+            color: #333;
+        }
+        blockquote {
+            margin: 1rem 0;
+            padding: 1rem;
+            background-color: #eef2f5;
+            border-left: 5px solid #6a7d8a;
+            font-style: italic;
+        }
+        .lesson {
+            margin-top: 2rem;
+        }
+        .lesson div {
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #6a7d8a;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #6a7d8a;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #commentBox {
+            width: 100%;
+            height: 200px;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            resize: none;
+        }
+        button {
+            padding: 0.6rem 1.2rem;
+            background-color: #6a7d8a;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #536373;
+        }
+        form {
+            margin: 2rem 0;
+            background-color: #eef2f5;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: calc(100% - 20px);
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form textarea {
+            height: 100px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Trusting God in Uncertain Times</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a> 
+    <!-- Additional links can be added here -->
+</nav>
+
+<main>
+    <h3>Presenter: Brother Marshall Jacob</h3>
+    <p>If you have questions or want to reach out for further spiritual guidance, contact us below:</p>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="contact" placeholder="Phone or Email" required>
+        <textarea id="question" placeholder="Your Question" required></textarea>
+        <button type="button" onclick="submitToWhatsApp()">Submit via WhatsApp</button>
+    </form>
+
+    <h2 id="introduction">Introduction</h2>
+    <p>Life often brings moments of uncertainty and fear, but God's promises remind us that we can place our trust in Him, even in the most challenging times.</p>
+    
+    <blockquote>
+        <p>Proverbs 3:5-6: “Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.”</p>
+    </blockquote>
+
+    <h3>Faith Amidst Uncertainty</h3>
+    <p>We often don't know what the future holds, but faith invites us to trust in God's provision, even when the way forward isn't clear.</p>
+
+    <blockquote>
+        <p>Hebrews 11:1 – "Now faith is confidence in what we hope for and assurance about what we do not see."</p>
+    </blockquote>
+
+    <h2 id="lessons">Lessons from Biblical Examples</h2>
+    <div class="lesson">
+        <div>
+            <strong>Abraham's Trust in God</strong>
+            <p>Abraham left everything behind to follow God's call without knowing where he was going. His obedience shows us the importance of trusting God even when we don't have all the answers.</p>
+            <blockquote>
+                <p>Genesis 12:1-2 – "The Lord had said to Abram, ‘Go from your country, your people and your father’s household to the land I will show you. I will make you into a great nation, and I will bless you.'"</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>David in the Wilderness</strong>
+            <p>David was hunted by King Saul and had to hide in the wilderness. Yet, David's psalms show us how he trusted in God for protection and deliverance.</p>
+            <blockquote>
+                <p>Psalm 27:1 – "The Lord is my light and my salvation—whom shall I fear? The Lord is the stronghold of my life—of whom shall I be afraid?"</p>
+            </blockquote>
+        </div>
+        <div>
+            <strong>Job's Faith Through Trials</strong>
+            <p>Though Job lost everything, he trusted in God's sovereignty. His story reminds us to stay steadfast in our faith, even in suffering.</p>
+            <blockquote>
+                <p>Job 13:15 – "Though he slay me, yet will I hope in him; I will surely defend my ways to his face."</p>
+            </blockquote>
+        </div>
+    </div>
+
+    <h2 id="application">Applying Faith in Daily Life</h2>
+    <p>When challenges arise, hold on to God's promises. We may not understand everything, but we can trust God's perfect plan. Spend time in prayer, stay connected with fellow believers, and reflect on His faithfulness throughout history.</p>
+
+    <h3>Leave a Comment</h3>
+    <textarea id="commentBox" placeholder="Share your thoughts..."></textarea>
+    <br>
+    <button onclick="saveComment()">Save Comment</button>
+</main>
+
+<footer>
+    <p>© 2024 Trust in God Ministry</p>
+</footer>
+
+<script>
+    function saveComment() {
+        const comment = document.getElementById('commentBox').value;
+        if (comment) {
+            localStorage.setItem('savedComment', comment);
+            alert('Comment saved locally!');
+        } else {
+            alert('Please enter a comment before saving.');
+        }
+    }
+
+    window.onload = function() {
+        const savedComment = localStorage.getItem('savedComment');
+        if (savedComment) {
+            document.getElementById('commentBox').value = savedComment;
+        }
+    }
+
+    function submitToWhatsApp() {
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const question = document.getElementById('question').value;
+        
+        if (name && contact && question) {
+            const message = `Name: ${name}\nContact: ${contact}\nQuestion: ${question}`;
+            const whatsappURL = `https://api.whatsapp.com/send?phone=1234567890&text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, '_blank');
+        } else {
+            alert('Please fill out all fields before submitting.');
+        }
+    }
+</script>
+
+</body>
+</html>

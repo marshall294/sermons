@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sermon Directory</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .sermon-thumbnail {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+            height: 300px;
+            margin: 15px;
+            border: 3px solid #ddd;
+            border-radius: 15px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .sermon-thumbnail:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .sermon-thumbnail a {
+            display: block;
+            text-decoration: none;
+            color: #333;
+            text-align: center;
+            font-size: 1.2em;
+            padding: 20px;
+        }
+
+        .sermon-thumbnail:nth-child(odd) {
+            background-color: #ff6347;
+            color: #fff;
+        }
+
+        .sermon-thumbnail:nth-child(even) {
+            background-color: #87ceeb;
+            color: #fff;
+        }
+
+        .sermon-thumbnail:nth-child(3n+1) {
+            background-color: #90ee90;
+            color: #fff;
+        }
+
+        .sermon-thumbnail:nth-child(3n+2) {
+            background-color: #ff69b4;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sermon Directory</h1>
+    </header>
+
+    <div class="container">
+        <div class="sermon-thumbnail">
+            <a href="who-do-you-listen-to.html">Sermon: "Who Do We Listen To"</a>
+        </div>
+
+        <div class="sermon-thumbnail">
+            <a href="Walking in the Light.html">Sermon: "Walking in the Light"</a>
+        </div>
+
+        <div class="sermon-thumbnail">
+            <a href="Trusting God in Uncertain Times.html">Sermon: "Trusting God in Uncertain Times"</a>
+        </div>
+
+        <div class="sermon-thumbnail">
+            <a href="The-Power-of-Persistent-Prayer.html">Sermon: "The Power of Persistent Prayer"</a>
+        </div>
+
+        <div class="sermon-thumbnail">
+            <a href="The-Good-Samaritan-Love in-Action.html">Sermon: "The Good Samaritan: Love in Action"</a>
+        </div>
+
+        <div class="sermon-thumbnail">
+            <a href="The Power of God's Word.html">Sermon: "The Power of God's Word"</a>
+        </div>
+
+        <div class="sermon-thumbnail">
+            <a href="The Call to Serve.html">Sermon: "The Call to Serve"</a>
+        </div>
+
+        <div class="sermon-thumbnail">
+            <a href="faith-in-action.html">Sermon: "Faith in Action"</a>
+        </div>
+        <div class="sermon-thumbnail">
+            <a href="Love-Your-Neighbor-as-Yourself.html">Sermon: "Love Your Neighbor as Yourself"</a>
+        </div>
+        <div class="sermon-thumbnail">
+            <a href="Transforming.html">Sermon: "Transforming Habits and Behavior in Marriage"</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Sermon Directory. All rights reserved.
+    </footer>
+</body>
+</html>
