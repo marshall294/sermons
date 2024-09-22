@@ -249,6 +249,38 @@
 <footer>
     <p>&copy; 2024 Sermon on Who Is God | Bible Study</p>
 </footer>
+<script>
+    function saveComment() {
+        const comment = document.getElementById('commentBox').value;
+        if (comment) {
+            localStorage.setItem('savedComment', comment);
+            alert('Comment saved locally!');
+        } else {
+            alert('Please enter a comment before saving.');
+        }
+    }
+
+    window.onload = function() {
+        const savedComment = localStorage.getItem('savedComment');
+        if (savedComment) {
+            document.getElementById('commentBox').value = savedComment;
+        }
+    }
+
+    function submitToWhatsApp() {
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const question = document.getElementById('question').value;
+
+        if (name && contact && question) {
+            const message = `Name: ${name}\nContact: ${contact}\nQuestion: ${question}`;
+            const whatsappURL = `https://api.whatsapp.com/send?phone=1234567890&text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, '_blank');
+        } else {
+            alert('Please fill out all fields before submitting.');
+        }
+    }
+</script>
 
 </body>
 </html>
